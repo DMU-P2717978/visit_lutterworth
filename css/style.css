@@ -1,0 +1,40 @@
+body {
+    background-color: #007ab3;
+    min-height: 100vh;
+    
+  }
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  vertical-align: 50vh;
+  height: 100px; /* Set an appropriate height */
+}
+
+.loader__dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff; /* Choose your desired color */
+  border-radius: 50%;
+  margin: 0 5px; /* Adjust spacing between dots */
+  animation: bounce 1s infinite alternate; /* Create a bouncing animation */
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-10px); /* Adjust the bounce height */
+  }
+}
+  
+    .Visit {
+    font-family: "roc-grotesk-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    color: #f3f3f3;
+}
+

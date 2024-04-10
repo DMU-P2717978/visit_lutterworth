@@ -1,0 +1,114 @@
+.Visit {
+    font-family: "roc-grotesk-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    color: #f3f3f3;
+}
+
+.Visittwo {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 1.6vh;
+
+
+  color: #f3f3f3;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  background-color: #610000;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+}
+
+  body {
+    background-color: #007ab3;
+    min-height: 100vh;
+  }
+
+  li a.home {
+    background-color: #008cff;
+    color: rgb(31, 188, 209);
+    
+  }
+
+  li a.AR {
+    background-color: #ffffff;
+    color: rgb(209, 31, 31);
+    
+  }
+  li a.stay {
+    background-color: #f28705;
+    color: rgb(157, 255, 0);
+    
+  }
+
+  li a.VL {
+    background-color: #910000;
+    color: rgb(209, 31, 31);
+  }
+
+  li a.food {
+    background-color: #ffe775;
+    color: rgb(209, 31, 31);
+    
+  }
+
+li .food {
+  color: #f3f3f3;
+}
+
+.button {
+  font-size: 10vw;
+  border-radius: 12px;
+  background-color: #04AA6D;
+  font-family: "roc-grotesk-wide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
